@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UBGC — Board Game Collection</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+  :root{
+    --wood-dark:#2b1d14;
+    --wood:#4a3323;
+    --wood-mid:#6b4a32;
+    --card:#f7f1e6;
+    --card-line:#e3d6bf;
+    --ink:#2b1d14;
+    --ink-soft:#6b5a47;
+    --brass:#b8863f;
+    --brass-bright:#d9a441;
+    --green:#4a6f4a;
+    --red:#a8452f;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:radial-gradient(ellipse at top, #3a2818 0%, var(--wood-dark) 60%);
+    color:var(--ink);
+    font-family:'Space Grotesk', sans-serif;
+    min-height:100vh;
+    padding-bottom:80px;
+  }
+
+  header{
+    padding:56px 24px 32px;
+    text-align:center;
+  }
+  .eyebrow{
+    letter-spacing:.28em;
+    text-transform:uppercase;
+    font-size:11px;
+    color:var(--brass-bright);
+    margin-bottom:14px;
+  }
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:clamp(38px,6.5vw,68px);
+    color:#f7f1e6;
+    margin:0 0 10px;
+    letter-spacing:-0.01em;
+    line-height:1.02;
+  }
+  h1 em{ font-style:italic; font-weight:400; color:var(--brass-bright); }
+  .subhead{
+    color:#c9b89a;
+    font-size:15px;
+    max-width:520px;
+    margin:0 auto;
+    line-height:1.55;
+  }
+  .stats-row{
+    display:flex;
+    justify-content:center;
+    margin:32px auto 0;
+    max-width:600px;
+    border-top:1px solid rgba(216,196,160,.18);
+    border-bottom:1px solid rgba(216,196,160,.18);
+  }
+  .stat{ flex:1; padding:16px; text-align:center; border-left:1px solid rgba(216,196,160,.18); }
+  .stat:first-child{border-left:none;}
+  .stat .num{ font-family:'Fraunces',serif; font-size:28px; color:var(--brass-bright); font-weight:600; }
+  .stat .lbl{ font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:#a4917a; margin-top:3px; }
+
+  /* ---------- Filters panel ---------- */
+  .filters{
+    max-width:1040px;
+    margin:36px auto 0;
+    padding:20px 24px;
+  }
+  .filters-inner{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(216,196,160,.18);
+    border-radius:14px;
+    padding:20px;
+  }
+  .search-wrap{ position:relative; margin-bottom:16px; }
+  #search{
+    width:100%;
+    padding:13px 16px 13px 40px;
+    border-radius:10px;
+    border:1px solid rgba(216,196,160,.25);
+    background:rgba(255,255,255,.06);
+    color:#f7f1e6;
+    font-family:'Space Grotesk',sans-serif;
+    font-size:15px;
+    outline:none;
+  }
+  #search::placeholder{color:#8f7c65;}
+  #search:focus{border-color:var(--brass-bright);}
+  .search-wrap::before{
+    content:"⌕"; position:absolute; left:14px; top:50%; transform:translateY(-50%);
+    color:#8f7c65; font-size:17px; pointer-events:none;
+  }
+
+  .filter-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:14px;
+  }
+  .filter-group label{
+    display:block;
+    font-size:10.5px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:#a4917a;
+    margin-bottom:6px;
+  }
+  select{
+    width:100%;
+    padding:10px 12px;
+    border-radius:8px;
+    border:1px solid rgba(216,196,160,.25);
+    background:#3a2818;
+    color:#f0e6d4;
+    font-family:'Space Grotesk',sans-serif;
+    font-size:13.5px;
+    outline:none;
+    cursor:pointer;
+  }
+  select:focus{border-color:var(--brass-bright);}
+
+  .clear-row{
+    margin-top:16px;
+    display:flex;
+    justify-content:flex-end;
+  }
+  .clear-btn{
+    background:none;
+    border:1px solid rgba(216,196,160,.3);
+    color:#c9b89a;
+    padding:8px 14px;
+    border-radius:8px;
+    font-size:12.5px;
+    cursor:pointer;
+    font-family:'Space Grotesk',sans-serif;
+  }
+  .clear-btn:hover{ border-color:var(--red); color:var(--red); }
+
+  /* ---------- Results grid ---------- */
+  main{ max-width:1040px; margin:8px auto 0; padding:0 24px; }
+  .result-count{
+    color:#a4917a;
+    font-size:13px;
+    margin:8px 4px 16px;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+    gap:14px;
+  }
+
+  .card{
+    background:var(--card);
+    border-radius:10px;
+    padding:18px 20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.28);
+    border-left:5px solid var(--brass);
+    cursor:pointer;
+    transition:transform .15s, box-shadow .15s;
+  }
+  .card:hover{ transform:translateY(-2px); box-shadow:0 12px 26px rgba(0,0,0,.35); }
+  .card.unknown{ border-left-color:#999; opacity:.75; }
+
+  .game-name{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:18px;
+    line-height:1.25;
+    color:var(--ink);
+  }
+  .card-tags{
+    margin-top:10px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+  }
+  .tag{
+    font-size:11px;
+    padding:3px 9px;
+    border-radius:20px;
+    font-weight:600;
+    white-space:nowrap;
+  }
+  .tag.mech{ background:#e6ecdf; color:var(--green); }
+  .tag.complexity{ background:#f0e2c8; color:var(--brass); }
+  .tag.players{ background:#e3e6f0; color:#44507a; }
+  .tag.time{ background:#f0dcd4; color:var(--red); }
+  .tag.exp-count{ background:#eee; color:#777; }
+
+  .empty-state{
+    text-align:center;
+    color:#a4917a;
+    padding:60px 20px;
+    font-family:'Fraunces',serif;
+    font-style:italic;
+    font-size:17px;
+  }
+
+  /* ---------- Modal ---------- */
+  .modal-overlay{
+    display:none;
+    position:fixed; inset:0;
+    background:rgba(20,13,8,.7);
+    backdrop-filter:blur(3px);
+    z-index:100;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+  }
+  .modal-overlay.open{ display:flex; }
+  .modal{
+    background:var(--card);
+    border-radius:16px;
+    max-width:560px;
+    width:100%;
+    max-height:85vh;
+    overflow-y:auto;
+    padding:32px;
+    position:relative;
+    box-shadow:0 30px 80px rgba(0,0,0,.5);
+  }
+  .modal-close{
+    position:absolute; top:18px; right:18px;
+    background:rgba(0,0,0,.06);
+    border:none;
+    width:32px; height:32px;
+    border-radius:50%;
+    font-size:16px;
+    cursor:pointer;
+    color:var(--ink-soft);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .modal-close:hover{ background:rgba(0,0,0,.12); }
+  .modal-title{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:28px;
+    color:var(--ink);
+    padding-right:30px;
+    line-height:1.15;
+  }
+  .modal-publisher{
+    color:var(--ink-soft);
+    font-size:13px;
+    margin-top:4px;
+  }
+  .modal-attrs{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+    margin-top:22px;
+  }
+  .attr-box{
+    background:rgba(184,134,63,.08);
+    border-radius:10px;
+    padding:12px 14px;
+  }
+  .attr-label{
+    font-size:10px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-bottom:4px;
+  }
+  .attr-value{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:16px;
+    color:var(--ink);
+  }
+  .modal-expansions{
+    margin-top:24px;
+    padding-top:20px;
+    border-top:1px dashed var(--card-line);
+  }
+  .modal-expansions h4{
+    font-family:'Fraunces',serif;
+    font-style:italic;
+    font-weight:500;
+    font-size:14px;
+    color:var(--ink-soft);
+    margin:0 0 10px;
+  }
+  .modal-expansions ul{ margin:0; padding:0; list-style:none; }
+  .modal-expansions li{
+    font-size:13.5px;
+    color:var(--ink-soft);
+    padding:4px 0 4px 16px;
+    position:relative;
+    line-height:1.4;
+  }
+  .modal-expansions li::before{ content:"—"; position:absolute; left:0; color:var(--brass); }
+  .modal-note{
+    margin-top:18px;
+    font-size:12.5px;
+    color:var(--ink-soft);
+    font-style:italic;
+    line-height:1.4;
+    background:rgba(168,69,47,.08);
+    padding:10px 12px;
+    border-radius:8px;
+  }
+  .modal-est{
+    display:inline-block;
+    margin-top:14px;
+    font-size:11px;
+    color:var(--red);
+    font-weight:600;
+  }
+
+  footer{
+    max-width:1040px;
+    margin:50px auto 0;
+    padding:24px 24px 0;
+    text-align:center;
+    color:#8f7c65;
+    font-size:12px;
+    border-top:1px solid rgba(216,196,160,.15);
+  }
+
+  @media (max-width:600px){
+    header{padding:40px 18px 24px;}
+    .grid{grid-template-columns:1fr;}
+    .modal-attrs{grid-template-columns:1fr 1fr;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">August 2026</div>
+  <h1>UBGC</h1>
+
+  <div class="stats-row">
+    <div class="stat"><div class="num" id="stat-games">–</div><div class="lbl">Games</div></div>
+    <div class="stat"><div class="num" id="stat-expansions">–</div><div class="lbl">Expansions</div></div>
+    <div class="stat"><div class="num" id="stat-mechanics">–</div><div class="lbl">Mechanics</div></div>
+  </div>
+</header>
+
+<div class="filters">
+  <div class="filters-inner">
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Search the shelf…" autocomplete="off">
+    </div>
+    <div class="filter-grid">
+      <div class="filter-group">
+        <label for="f-players">Player count</label>
+        <select id="f-players">
+          <option value="">Any</option>
+          <option value="1">Playable solo (1)</option>
+          <option value="2">Playable at 2</option>
+          <option value="3">Playable at 3</option>
+          <option value="4">Playable at 4</option>
+          <option value="5">Playable at 5</option>
+          <option value="6">Playable at 6+</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="f-mechanic">Main mechanic</label>
+        <select id="f-mechanic"><option value="">Any</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="f-complexity">Complexity</label>
+        <select id="f-complexity">
+          <option value="">Any</option>
+          <option value="Simple">Simple</option>
+          <option value="Light">Light</option>
+          <option value="Medium">Medium</option>
+          <option value="Heavy">Heavy</option>
+          <option value="Complex">Complex</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="f-time">Playtime</label>
+        <select id="f-time">
+          <option value="">Any</option>
+          <option value="30">Under 30 min</option>
+          <option value="60">Under 1 hour</option>
+          <option value="90">Under 1.5 hours</option>
+          <option value="120">Under 2 hours</option>
+          <option value="9999">2+ hours</option>
+        </select>
+      </div>
+    </div>
+    <div class="clear-row">
+      <button class="clear-btn" id="clear-filters">Clear filters</button>
+    </div>
+  </div>
+</div>
+
+<main>
+  <div class="result-count" id="result-count"></div>
+  <div class="grid" id="results"></div>
+  <div class="empty-state" id="empty" style="display:none;">Nothing on the shelf matches those filters.</div>
+</main>
+
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <button class="modal-close" id="modal-close">✕</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<footer>
+  Catalogued from 57 shelf photographs · titles &amp; attributes transcribed and estimated from box art and general knowledge, some readings approximate · duplicate images of the same box counted once
+</footer>
+
+<script>
+  let COLLECTION = [];
+
+  async function loadData(){
+    const res = await fetch('games.json');
+    COLLECTION = await res.json();
+    initMechanicDropdown();
+    updateStats();
+    render();
+  }
+
+  const grid = document.getElementById('results');
+  const empty = document.getElementById('empty');
+  const resultCount = document.getElementById('result-count');
+  const searchInput = document.getElementById('search');
+  const fPlayers = document.getElementById('f-players');
+  const fMechanic = document.getElementById('f-mechanic');
+  const fComplexity = document.getElementById('f-complexity');
+  const fTime = document.getElementById('f-time');
+  const clearBtn = document.getElementById('clear-filters');
+  const modalOverlay = document.getElementById('modal-overlay');
+  const modalContent = document.getElementById('modal-content');
+  const modalClose = document.getElementById('modal-close');
+
+  const mechanics = [];
+  function initMechanicDropdown(){
+    const found = [...new Set(COLLECTION.map(g => g.mechanic).filter(m => m && m !== 'Unknown'))].sort();
+    mechanics.length = 0;
+    mechanics.push(...found);
+    fMechanic.innerHTML = '<option value="">Any</option>';
+    mechanics.forEach(m => {
+      const opt = document.createElement('option');
+      opt.value = m; opt.textContent = m;
+      fMechanic.appendChild(opt);
+    });
+  }
+
+  function fmtPlayers(g){
+    if (g.players[0] == null) return 'Unknown';
+    if (g.players[0] === g.players[1]) return g.players[0] + ' players';
+    return g.players[0] + '–' + g.players[1] + ' players';
+  }
+  function fmtTime(g){
+    if (g.time[0] == null) return 'Unknown';
+    if (g.time[0] === g.time[1]) return g.time[0] + ' min';
+    return g.time[0] + '–' + g.time[1] + ' min';
+  }
+
+  function render(){
+    const q = searchInput.value.trim().toLowerCase();
+    const pVal = fPlayers.value ? parseInt(fPlayers.value) : null;
+    const mVal = fMechanic.value;
+    const cVal = fComplexity.value;
+    const tVal = fTime.value ? parseInt(fTime.value) : null;
+
+    let items = COLLECTION.filter(g => {
+      if (q){
+        const hay = (g.name + ' ' + (g.publisher||'') + ' ' + (g.expansions||[]).join(' ') + ' ' + g.mechanicFull).toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      if (pVal){
+        if (g.players[0] == null) return false;
+        if (pVal === 6){ if (g.players[1] < 6) return false; }
+        else { if (pVal < g.players[0] || pVal > g.players[1]) return false; }
+      }
+      if (mVal && g.mechanic !== mVal) return false;
+      if (cVal && g.complexity !== cVal) return false;
+      if (tVal){
+        if (g.time[0] == null) return false;
+        if (tVal === 9999){ if (g.time[1] < 120) return false; }
+        else { if (g.time[0] > tVal) return false; }
+      }
+      return true;
+    });
+
+    items.sort((a,b)=> a.name.localeCompare(b.name));
+
+    grid.innerHTML = '';
+    resultCount.textContent = items.length + ' game' + (items.length===1?'':'s') + ' on the shelf';
+
+    if (items.length === 0){
+      empty.style.display = 'block';
+      return;
+    }
+    empty.style.display = 'none';
+
+    items.forEach(g => {
+      const isUnknown = g.complexity === 'Unknown';
+      const card = document.createElement('div');
+      card.className = 'card' + (isUnknown ? ' unknown' : '');
+      const expCount = g.expansions ? g.expansions.length : 0;
+
+      card.innerHTML = `
+        <div class="game-name">${g.name}</div>
+        <div class="card-tags">
+          ${!isUnknown ? `<span class="tag players">${fmtPlayers(g)}</span>` : ''}
+          ${!isUnknown ? `<span class="tag complexity">${g.complexity}</span>` : ''}
+          ${!isUnknown ? `<span class="tag mech">${g.mechanic}</span>` : ''}
+          ${!isUnknown ? `<span class="tag time">${fmtTime(g)}</span>` : ''}
+          ${expCount ? `<span class="tag exp-count">+${expCount} exp.</span>` : ''}
+        </div>
+      `;
+      card.addEventListener('click', () => openModal(g));
+      grid.appendChild(card);
+    });
+  }
+
+  function openModal(g){
+    const expCount = g.expansions ? g.expansions.length : 0;
+    modalContent.innerHTML = `
+      <div class="modal-title">${g.name}</div>
+      ${g.publisher ? `<div class="modal-publisher">${g.publisher}</div>` : ''}
+      <div class="modal-attrs">
+        <div class="attr-box"><div class="attr-label">Players</div><div class="attr-value">${fmtPlayers(g)}</div></div>
+        <div class="attr-box"><div class="attr-label">Playtime</div><div class="attr-value">${fmtTime(g)}</div></div>
+        <div class="attr-box"><div class="attr-label">Complexity</div><div class="attr-value">${g.complexity}</div></div>
+        <div class="attr-box"><div class="attr-label">Mechanic</div><div class="attr-value">${g.mechanicFull || g.mechanic}</div></div>
+      </div>
+      ${g.est ? `<div class="modal-est">⚠ Attributes are an estimate — not verified against the box.</div>` : ''}
+      ${expCount ? `
+        <div class="modal-expansions">
+          <h4>${expCount} expansion${expCount>1?'s':''} on the shelf</h4>
+          <ul>${g.expansions.map(e => `<li>${e}</li>`).join('')}</ul>
+        </div>
+      ` : ''}
+      ${g.note ? `<div class="modal-note">${g.note}</div>` : ''}
+    `;
+    modalOverlay.classList.add('open');
+  }
+
+  modalClose.addEventListener('click', () => modalOverlay.classList.remove('open'));
+  modalOverlay.addEventListener('click', (e) => { if (e.target === modalOverlay) modalOverlay.classList.remove('open'); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') modalOverlay.classList.remove('open'); });
+
+  function updateStats(){
+    document.getElementById('stat-games').textContent = COLLECTION.length;
+    document.getElementById('stat-expansions').textContent = COLLECTION.reduce((a,g)=> a + (g.expansions?g.expansions.length:0), 0);
+    document.getElementById('stat-mechanics').textContent = mechanics.length;
+  }
+
+  [searchInput, fPlayers, fMechanic, fComplexity, fTime].forEach(el => {
+    el.addEventListener('input', render);
+    el.addEventListener('change', render);
+  });
+  clearBtn.addEventListener('click', () => {
+    searchInput.value=''; fPlayers.value=''; fMechanic.value=''; fComplexity.value=''; fTime.value='';
+    render();
+  });
+
+  loadData();
+</script>
+</body>
+</html>

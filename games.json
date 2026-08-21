@@ -1,0 +1,2853 @@
+[
+  {
+    "name": "Primal: The Awakening",
+    "publisher": "Awaken Realms",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      90,
+      180
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Deck Building",
+    "expansions": [],
+    "mechanicFull": "Deck Building"
+  },
+  {
+    "name": "Unmatched",
+    "publisher": "Restoration Games / Mondo",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      20,
+      40
+    ],
+    "complexity": "Light",
+    "mechanic": "Tactical",
+    "expansions": [
+      "Robin Hood vs Bigfoot",
+      "Little Red Riding Hood vs Beowulf",
+      "Sun Wukong's Origins",
+      "Houdini vs the Genie",
+      "Jurassic Park: InGen vs Raptors",
+      "Jurassic Park: Dr. Sattler vs T. Rex",
+      "Battle of Legends, Volume One",
+      "Bruce Lee",
+      "Cobble & Fog",
+      "Slings & Arrows",
+      "Buffy the Vampire Slayer",
+      "Adventures: Teenage Mutant Ninja Turtles",
+      "Adventures: Tales to Amaze"
+    ],
+    "mechanicFull": "Tactical Combat"
+  },
+  {
+    "name": "Sherlock Holmes: Consulting Detective",
+    "publisher": "Space Cowboys",
+    "players": [
+      1,
+      8
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Light",
+    "mechanic": "Deduction",
+    "expansions": [
+      "The Thames Murders & Other Cases",
+      "Jack the Ripper & West End Adventures",
+      "The Baker Street Irregulars",
+      "Carlton House & Queen's Park"
+    ],
+    "mechanicFull": "Deduction"
+  },
+  {
+    "name": "Merchants & Marauders",
+    "publisher": "Z-Man Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      120,
+      180
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Area Movement",
+    "expansions": [
+      "Seas of Glory"
+    ],
+    "mechanicFull": "Area Movement"
+  },
+  {
+    "name": "Viticulture Essential Edition",
+    "publisher": "Stonemaier Games",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      45,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Worker Placement",
+    "expansions": [
+      "World: Cooperative Expansion",
+      "Bordeaux"
+    ],
+    "mechanicFull": "Worker Placement"
+  },
+  {
+    "name": "B\u00e4ren Park",
+    "publisher": "Lookout Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Light",
+    "mechanic": "Tile Placement",
+    "expansions": [
+      "The Bad News Grizzlies"
+    ],
+    "mechanicFull": "Tile Placement"
+  },
+  {
+    "name": "War of the Ring (2nd Edition)",
+    "publisher": "Ares Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      120,
+      180
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Area Control",
+    "expansions": [
+      "Lords of Middle-earth"
+    ],
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "Arcs",
+    "publisher": "Leder Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Area Control",
+    "expansions": [
+      "The Blighted Reach"
+    ],
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "Food Chain Magnate",
+    "publisher": "Splotter Spellen",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      120,
+      180
+    ],
+    "complexity": "Complex",
+    "mechanic": "Engine Building",
+    "expansions": [
+      "Promo Magnets: The Ketchup Mechanism and Other Ideas",
+      "Promo Magnets: The Modern Way to Old Fashioned Good Gaming"
+    ],
+    "mechanicFull": "Engine Building"
+  },
+  {
+    "name": "Raiders of the North Sea",
+    "publisher": "Renegade / Garphill Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Worker Placement",
+    "expansions": [
+      "Hall of Heroes: Raiders of the North Sea"
+    ],
+    "mechanicFull": "Worker Placement"
+  },
+  {
+    "name": "Nemesis",
+    "publisher": "Awaken Realms / Rebel",
+    "players": [
+      1,
+      5
+    ],
+    "time": [
+      90,
+      180
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Survival",
+    "expansions": [
+      "Lockdown",
+      "Retaliation",
+      "Retaliation: Stretch Goals",
+      "Constructs Pack"
+    ],
+    "mechanicFull": "Survival/Hidden Movement"
+  },
+  {
+    "name": "StreetMasters",
+    "publisher": "Mighty Boy Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Cooperative",
+    "expansions": [
+      "Rise of the Kingdom (core)",
+      "II: Aftershock",
+      "III: Tide of the Dragon",
+      "IV: Night of the Blood Moon"
+    ],
+    "mechanicFull": "Cooperative"
+  },
+  {
+    "name": "Root",
+    "publisher": "Leder Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Area Control",
+    "expansions": [
+      "The Marauder Expansion",
+      "The Clockwork Expansion 2",
+      "The Underworld Expansion",
+      "The Riverfolk Expansion",
+      "The Homeland Expansion"
+    ],
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "Final Girl",
+    "publisher": "Van Ryder Games",
+    "players": [
+      1,
+      1
+    ],
+    "time": [
+      30,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Solo",
+    "expansions": [
+      "Core Box (Series 1)",
+      "Feature Film: Nightmare on Maple Lane \u2014 Dr. Fright",
+      "Feature Film: The Happy Trails Horror \u2014 The Hans",
+      "Feature Film: Carnage at the Carnival \u2014 Geppetto",
+      "Feature Film: The Haunting of Creech Manor \u2014 Poltergeist",
+      "Feature Film: Slaughter in the Sacred Groves \u2014 Bokantamba",
+      "Feature Film: Once Upon a Full Moon \u2014 The Fell Wolf (Storybook Woods)",
+      "Feature Film: A Knock at the Door \u2014 The Intruders (Wingard Cottages)",
+      "Feature Film: Madness in the Dark \u2014 The Wulfe Asylum",
+      "Feature Film: Into the Void \u2014 Evomorph (USS Konrad)",
+      "Feature Film: Frost at Station 2891 \u2014 The Organism",
+      "Feature Film: The Haunted Nightmare \u2014 Krampus (Santa's Village)",
+      "Box of Props (accessory)",
+      "Bonus Features \u2014 Series 2",
+      "Bonus Features \u2014 Series 1"
+    ],
+    "note": "Feature-film subtitles re-verified from close crops; a couple of short words are still best-effort reads.",
+    "mechanicFull": "Solo / Dice"
+  },
+  {
+    "name": "Marvel Champions: The Card Game",
+    "publisher": "Fantasy Flight Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      45,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deck Building",
+    "expansions": [
+      "Mutant Genesis",
+      "The Rise of Red Skull",
+      "S.H.I.E.L.D.",
+      "Sinister Motives",
+      "The Galaxy's Most Wanted",
+      "Age of Apocalypse",
+      "The Mad Titan's Shadow",
+      "Next Evolution",
+      "Civil War"
+    ],
+    "mechanicFull": "Deck Building"
+  },
+  {
+    "name": "Arkham Horror: The Card Game",
+    "publisher": "Fantasy Flight Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deck Building",
+    "expansions": [
+      "The Dunwich Legacy",
+      "The Path to Carcosa",
+      "The Forgotten Age",
+      "The Dream-Eaters",
+      "The Innsmouth Conspiracy",
+      "Return to the Night of the Zealot",
+      "Return to the Dunwich Legacy",
+      "Return to the Path to Carcosa",
+      "Return to the Forgotten Age"
+    ],
+    "mechanicFull": "Deck Building"
+  },
+  {
+    "name": "The Lord of the Rings: The Card Game",
+    "publisher": "Fantasy Flight Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      45,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deck Building",
+    "expansions": [
+      "Khazad-d\u00fbm",
+      "Heirs of N\u00famenor",
+      "The Voice of Isengard",
+      "The Lost Realm",
+      "The Grey Havens",
+      "The Sands of Harad",
+      "The Wilds of Rhovanion",
+      "Shadow of the East",
+      "The Hobbit: Over Hill and Under Hill",
+      "The Hobbit: On the Doorstep",
+      "The Black Riders",
+      "The Road Darkens",
+      "The Treason of Saruman",
+      "The Land of Shadow",
+      "The Flame of the West",
+      "The Mountain of Fire"
+    ],
+    "mechanicFull": "Deck Building"
+  },
+  {
+    "name": "Star Wars: Imperial Assault",
+    "publisher": "Fantasy Flight Games",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Miniatures Skirmish",
+    "expansions": [
+      "Tyrants of Lothal",
+      "+ several additional hero/villain packs"
+    ],
+    "mechanicFull": "Miniatures Skirmish"
+  },
+  {
+    "name": "Memoir '44",
+    "publisher": "Days of Wonder",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      30,
+      60
+    ],
+    "complexity": "Light",
+    "mechanic": "Wargame",
+    "expansions": [
+      "New Night Plans",
+      "Equipment Pack"
+    ],
+    "mechanicFull": "Wargame"
+  },
+  {
+    "name": "Zombicide: Marvel Zombies",
+    "publisher": "CMON",
+    "players": [
+      1,
+      6
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Cooperative",
+    "expansions": [
+      "X-Men Resistance"
+    ],
+    "mechanicFull": "Cooperative"
+  },
+  {
+    "name": "Aeon Trespass: Odyssey",
+    "publisher": "Awaken Realms",
+    "players": [
+      1,
+      5
+    ],
+    "time": [
+      120,
+      240
+    ],
+    "complexity": "Complex",
+    "mechanic": "Dungeon Crawl",
+    "expansions": [
+      "Companion box"
+    ],
+    "mechanicFull": "Dungeon Crawl"
+  },
+  {
+    "name": "Oathsworn: Into the Deepwood",
+    "publisher": "Shadowborne Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      90,
+      150
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Cooperative",
+    "expansions": [
+      "Mystery Chest 1"
+    ],
+    "mechanicFull": "Cooperative / Adventure"
+  },
+  {
+    "name": "Avalon: The Riven Veil",
+    "publisher": "Jamie Jolly / self-published",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Adventure",
+    "expansions": [
+      "Myths & Monsters"
+    ],
+    "est": true,
+    "mechanicFull": "Adventure"
+  },
+  {
+    "name": "Senjutsu: Battle for Japan",
+    "publisher": "CMON",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      20,
+      40
+    ],
+    "complexity": "Light",
+    "mechanic": "Dueling",
+    "expansions": [
+      "The Wolf at the Door (character pack)",
+      "Cherry-blossom/mountain sleeve box \u2014 most likely the core game's collector box, title unconfirmed"
+    ],
+    "note": "A red CMON-branded box sat directly to the left of this stack too, but its spine was cropped out of every photo.",
+    "mechanicFull": "Dueling / Combat"
+  },
+  {
+    "name": "Cthulhu: Death May Die",
+    "publisher": "CMON",
+    "players": [
+      1,
+      5
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Cooperative",
+    "expansions": [
+      "Season 2: Yog-Sothoth",
+      "Black Goat"
+    ],
+    "mechanicFull": "Cooperative"
+  },
+  {
+    "name": "For Sale",
+    "publisher": "AEG / Amigo",
+    "players": [
+      3,
+      6
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Auction",
+    "expansions": [
+      "Autorama"
+    ],
+    "mechanicFull": "Auction / Bidding"
+  },
+  {
+    "name": "Concordia",
+    "publisher": "PD-Verlag",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      60,
+      100
+    ],
+    "complexity": "Medium",
+    "mechanic": "Route Building",
+    "expansions": [
+      "Venus"
+    ],
+    "note": "Only the Venus map box was visible \u2014 base Concordia may be stored elsewhere.",
+    "mechanicFull": "Route Building"
+  },
+  {
+    "name": "Detective: City of Angels",
+    "publisher": "Van Ryder Games",
+    "players": [
+      1,
+      5
+    ],
+    "time": [
+      90,
+      150
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deduction",
+    "mechanicFull": "Deduction / Narrative"
+  },
+  {
+    "name": "The Battle of Five Armies (The Hobbit)",
+    "publisher": "Ares Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Wargame",
+    "mechanicFull": "Wargame"
+  },
+  {
+    "name": "Western Legends",
+    "publisher": "Kolossal Games",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      60,
+      150
+    ],
+    "complexity": "Medium",
+    "mechanic": "Area Movement",
+    "mechanicFull": "Area Movement / Adventure"
+  },
+  {
+    "name": "Dune (CMON, Legendary Edition)",
+    "publisher": "CMON",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      120,
+      180
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control / Negotiation"
+  },
+  {
+    "name": "Dune: Imperium",
+    "publisher": "Dire Wolf",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Worker Placement",
+    "mechanicFull": "Worker Placement / Deck Building"
+  },
+  {
+    "name": "Inis",
+    "publisher": "Matagot",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control / Card Drafting"
+  },
+  {
+    "name": "Sniper Elite: The Board Game",
+    "publisher": "Rebellion Unplugged",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Tactical",
+    "mechanicFull": "Tactical / Stealth"
+  },
+  {
+    "name": "Eagle's Nest",
+    "publisher": "",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Simple",
+    "mechanic": "Dexterity",
+    "est": true,
+    "mechanicFull": "Dexterity"
+  },
+  {
+    "name": "Coffee Roaster",
+    "publisher": "dlp games",
+    "players": [
+      1,
+      1
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Medium",
+    "mechanic": "Solo",
+    "mechanicFull": "Solo Puzzle"
+  },
+  {
+    "name": "King of Tokyo: Monster Box",
+    "publisher": "IELLO",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Simple",
+    "mechanic": "Push Your Luck",
+    "mechanicFull": "Push Your Luck / Dice"
+  },
+  {
+    "name": "Camel Up",
+    "publisher": "Pegasus Spiele",
+    "players": [
+      2,
+      8
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Push Your Luck",
+    "mechanicFull": "Push Your Luck / Betting"
+  },
+  {
+    "name": "Mysterium",
+    "publisher": "Libellud",
+    "players": [
+      2,
+      7
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative / Deduction"
+  },
+  {
+    "name": "Alfred Hitchcock's Rear Window",
+    "publisher": "Funko Games",
+    "players": [
+      3,
+      5
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deduction",
+    "mechanicFull": "Deduction"
+  },
+  {
+    "name": "Bomb Busters",
+    "publisher": "Pegasus Spiele",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative / Deduction"
+  },
+  {
+    "name": "Sheriff of Nottingham (2nd Edition)",
+    "publisher": "CMON",
+    "players": [
+      3,
+      5
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Light",
+    "mechanic": "Bluffing",
+    "mechanicFull": "Bluffing"
+  },
+  {
+    "name": "Chronicles of Crime",
+    "publisher": "Lucky Duck Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deduction",
+    "mechanicFull": "Deduction"
+  },
+  {
+    "name": "Kabuto Sumo",
+    "publisher": "",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      15,
+      20
+    ],
+    "complexity": "Simple",
+    "mechanic": "Dexterity",
+    "mechanicFull": "Dexterity"
+  },
+  {
+    "name": "Sushi Go!",
+    "publisher": "Gamewright",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      15,
+      20
+    ],
+    "complexity": "Simple",
+    "mechanic": "Card Drafting",
+    "mechanicFull": "Card Drafting"
+  },
+  {
+    "name": "Ca$h 'n Guns (2nd Edition)",
+    "publisher": "",
+    "players": [
+      4,
+      8
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Bluffing",
+    "mechanicFull": "Bluffing"
+  },
+  {
+    "name": "Junk Art",
+    "publisher": "",
+    "players": [
+      2,
+      8
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Dexterity",
+    "mechanicFull": "Dexterity"
+  },
+  {
+    "name": "Ticket to Ride: Europe",
+    "publisher": "Days of Wonder",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      30,
+      60
+    ],
+    "complexity": "Light",
+    "mechanic": "Route Building",
+    "mechanicFull": "Route Building"
+  },
+  {
+    "name": "Ticket to Ride (base)",
+    "publisher": "Days of Wonder",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      30,
+      60
+    ],
+    "complexity": "Light",
+    "mechanic": "Route Building",
+    "mechanicFull": "Route Building"
+  },
+  {
+    "name": "Ticket to Ride Map Collection 5: United Kingdom",
+    "publisher": "Days of Wonder",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      30,
+      60
+    ],
+    "complexity": "Light",
+    "mechanic": "Route Building",
+    "mechanicFull": "Route Building"
+  },
+  {
+    "name": "Ticket to Ride: New York",
+    "publisher": "Days of Wonder",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      15,
+      20
+    ],
+    "complexity": "Simple",
+    "mechanic": "Route Building",
+    "mechanicFull": "Route Building"
+  },
+  {
+    "name": "Bargain Quest",
+    "publisher": "Renegade Game Studios",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Card Drafting",
+    "mechanicFull": "Card Drafting"
+  },
+  {
+    "name": "Chronicles of Crime: 1400",
+    "publisher": "Lucky Duck Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deduction",
+    "mechanicFull": "Deduction"
+  },
+  {
+    "name": "Troyes",
+    "publisher": "",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      90,
+      120
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Worker Placement",
+    "mechanicFull": "Worker Placement / Dice Allocation"
+  },
+  {
+    "name": "Port Royal Big Box",
+    "publisher": "Pegasus Spiele",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Push Your Luck",
+    "mechanicFull": "Push Your Luck"
+  },
+  {
+    "name": "Bohemians",
+    "publisher": "",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      30,
+      60
+    ],
+    "complexity": "Light",
+    "mechanic": "Set Collection",
+    "est": true,
+    "mechanicFull": "Set Collection"
+  },
+  {
+    "name": "Cascadia",
+    "publisher": "Flatout Games / AEG",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Tile Placement",
+    "mechanicFull": "Tile Placement"
+  },
+  {
+    "name": "Nippon",
+    "publisher": "Crow Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      90,
+      150
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Engine Building",
+    "mechanicFull": "Engine Building"
+  },
+  {
+    "name": "Lisboa",
+    "publisher": "Vital Lacerda / Eagle-Gryphon",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      90,
+      150
+    ],
+    "complexity": "Complex",
+    "mechanic": "Worker Placement",
+    "mechanicFull": "Worker Placement"
+  },
+  {
+    "name": "Vinhos Deluxe Edition",
+    "publisher": "Eagle-Gryphon Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      90,
+      150
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Worker Placement",
+    "mechanicFull": "Worker Placement"
+  },
+  {
+    "name": "Rococo Deluxe Edition",
+    "publisher": "Eagle-Gryphon Games",
+    "players": [
+      3,
+      5
+    ],
+    "time": [
+      90,
+      120
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Set Collection",
+    "mechanicFull": "Set Collection"
+  },
+  {
+    "name": "Letters from Whitechapel (Revised Edition)",
+    "publisher": "Fantasy Flight / Giochi Uniti",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      90,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Hidden Movement",
+    "mechanicFull": "Hidden Movement"
+  },
+  {
+    "name": "Hunt for the Ring",
+    "publisher": "Ares Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Hidden Movement",
+    "mechanicFull": "Hidden Movement"
+  },
+  {
+    "name": "Mind MGMT",
+    "publisher": "Off the Page Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      45,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Hidden Movement",
+    "mechanicFull": "Hidden Movement / Deduction"
+  },
+  {
+    "name": "Escape from the Aliens in Outer Space",
+    "publisher": "Osprey Games",
+    "players": [
+      3,
+      8
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Light",
+    "mechanic": "Hidden Movement",
+    "mechanicFull": "Hidden Movement"
+  },
+  {
+    "name": "Kelp: Shark vs Octopus",
+    "publisher": "Wondertoon",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Abstract",
+    "est": true,
+    "mechanicFull": "Abstract / Asymmetric"
+  },
+  {
+    "name": "Agricola (Revised Edition)",
+    "publisher": "Lookout Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      90,
+      150
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Worker Placement",
+    "mechanicFull": "Worker Placement"
+  },
+  {
+    "name": "El Grande",
+    "publisher": "Hans im Gl\u00fcck",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      90,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "Brian Boru: High King of Ireland",
+    "publisher": "",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "1984",
+    "publisher": "GDM Games (designer Perepau Llistosella)",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      30,
+      60
+    ],
+    "complexity": "Light",
+    "mechanic": "Negotiation",
+    "est": true,
+    "mechanicFull": "Negotiation"
+  },
+  {
+    "name": "Discworld: Ankh-Morpork",
+    "publisher": "Martin Wallace / Treefrog",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "The Witches (Discworld)",
+    "publisher": "Martin Wallace / Treefrog",
+    "players": [
+      3,
+      5
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Trick-Taking",
+    "est": true,
+    "mechanicFull": "Trick-Taking"
+  },
+  {
+    "name": "Covert",
+    "publisher": "",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      20,
+      40
+    ],
+    "complexity": "Light",
+    "mechanic": "Hidden Movement",
+    "est": true,
+    "mechanicFull": "Hidden Movement"
+  },
+  {
+    "name": "The Search for Planet X",
+    "publisher": "Foxtrot Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deduction",
+    "mechanicFull": "Deduction"
+  },
+  {
+    "name": "The Networks",
+    "publisher": "",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      45,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Tableau Building",
+    "mechanicFull": "Tableau Building"
+  },
+  {
+    "name": "Winston",
+    "publisher": "",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      15,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Deduction",
+    "est": true,
+    "mechanicFull": "Deduction"
+  },
+  {
+    "name": "Codenames: Back to the Future",
+    "publisher": "Czech Games Edition",
+    "players": [
+      4,
+      8
+    ],
+    "time": [
+      15,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Party",
+    "mechanicFull": "Party / Word"
+  },
+  {
+    "name": "Horrified",
+    "publisher": "Ravensburger",
+    "players": [
+      1,
+      5
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Light",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative"
+  },
+  {
+    "name": "Ready Set Bet",
+    "publisher": "AEG",
+    "players": [
+      2,
+      8
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Simple",
+    "mechanic": "Push Your Luck",
+    "mechanicFull": "Push Your Luck / Betting"
+  },
+  {
+    "name": "Secret Hitler",
+    "publisher": "",
+    "players": [
+      5,
+      10
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Social Deduction",
+    "mechanicFull": "Social Deduction"
+  },
+  {
+    "name": "Blood on the Clocktower",
+    "publisher": "",
+    "players": [
+      5,
+      20
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Social Deduction",
+    "mechanicFull": "Social Deduction"
+  },
+  {
+    "name": "Magical Athlete",
+    "publisher": "",
+    "players": [
+      2,
+      8
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Racing",
+    "mechanicFull": "Racing"
+  },
+  {
+    "name": "Wonderlands War",
+    "publisher": "Eerie Idol Games",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      45,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "Obsession",
+    "publisher": "Kayenta Games",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      90,
+      120
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Worker Placement",
+    "mechanicFull": "Worker Placement"
+  },
+  {
+    "name": "Brass: Birmingham",
+    "publisher": "Roxley",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      90,
+      120
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Network Building",
+    "mechanicFull": "Network Building"
+  },
+  {
+    "name": "Brass: Lancashire",
+    "publisher": "Roxley",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      90,
+      120
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Network Building",
+    "mechanicFull": "Network Building"
+  },
+  {
+    "name": "Tammany Hall",
+    "publisher": "",
+    "players": [
+      4,
+      5
+    ],
+    "time": [
+      90,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "The Thing: Infection at Outpost 31",
+    "publisher": "USAopoly",
+    "players": [
+      4,
+      8
+    ],
+    "time": [
+      45,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Social Deduction",
+    "mechanicFull": "Social Deduction"
+  },
+  {
+    "name": "Cosmic Odyssey",
+    "publisher": "",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Area Control",
+    "est": true,
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "Cosmic Encounter",
+    "publisher": "Fantasy Flight Games",
+    "players": [
+      3,
+      5
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control / Negotiation"
+  },
+  {
+    "name": "El Dorado (The Quest for El Dorado)",
+    "publisher": "Ravensburger",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Deck Building",
+    "mechanicFull": "Deck Building / Racing"
+  },
+  {
+    "name": "K2",
+    "publisher": "Rebel",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Racing",
+    "mechanicFull": "Racing"
+  },
+  {
+    "name": "Flamme Rouge",
+    "publisher": "Lautapelit",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Racing",
+    "mechanicFull": "Racing"
+  },
+  {
+    "name": "DownForce",
+    "publisher": "Restoration Games",
+    "players": [
+      4,
+      6
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Racing",
+    "mechanicFull": "Racing / Auction"
+  },
+  {
+    "name": "Formula D",
+    "publisher": "Space Cowboys",
+    "players": [
+      2,
+      10
+    ],
+    "time": [
+      45,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Racing",
+    "mechanicFull": "Racing"
+  },
+  {
+    "name": "Race! Formula 90",
+    "publisher": "",
+    "players": [
+      2,
+      8
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Racing",
+    "mechanicFull": "Racing"
+  },
+  {
+    "name": "Winner's Circle",
+    "publisher": "",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Racing",
+    "mechanicFull": "Racing / Betting"
+  },
+  {
+    "name": "Star Wars: Outer Rim",
+    "publisher": "Fantasy Flight Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      90,
+      150
+    ],
+    "complexity": "Medium",
+    "mechanic": "Exploration",
+    "mechanicFull": "Exploration"
+  },
+  {
+    "name": "Star Wars: Rebellion",
+    "publisher": "Fantasy Flight Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      120,
+      240
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "Joyride Turbo",
+    "publisher": "",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Racing",
+    "est": true,
+    "mechanicFull": "Racing"
+  },
+  {
+    "name": "Thunder Road: Vendetta",
+    "publisher": "Restoration Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      45,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Racing",
+    "mechanicFull": "Racing / Combat"
+  },
+  {
+    "name": "Return to Dark Tower",
+    "publisher": "Restoration Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      90,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative / Adventure"
+  },
+  {
+    "name": "The Old King's Crown: The Wild Kingdoms Expansion",
+    "publisher": "Eerie Idol Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Social Deduction",
+    "est": true,
+    "mechanicFull": "Social Deduction / Hidden Movement"
+  },
+  {
+    "name": "Tales of the Arthurian Knights",
+    "publisher": "WizKids",
+    "players": [
+      1,
+      5
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative"
+  },
+  {
+    "name": "Tainted Grail: Kings of Ruin",
+    "publisher": "Awaken Realms",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      90,
+      150
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Dungeon Crawl",
+    "expansions": [
+      "second core/expansion box (identical dark art, contents not distinguishable from the photo)"
+    ],
+    "note": "Two matching dark boxes with the swirling-smoke Awaken Realms crest sat together \u2014 likely core game plus an expansion, but spine text wasn't legible enough to tell them apart.",
+    "mechanicFull": "Dungeon Crawl"
+  },
+  {
+    "name": "Ashes Reborn",
+    "publisher": "Plaid Hat Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      20,
+      40
+    ],
+    "complexity": "Medium",
+    "mechanic": "Dueling",
+    "mechanicFull": "Card Battler / Dueling"
+  },
+  {
+    "name": "Undaunted: Callisto",
+    "publisher": "Osprey Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deck Building",
+    "mechanicFull": "Deck Building / Wargame"
+  },
+  {
+    "name": "Undaunted 2200",
+    "publisher": "Osprey Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deck Building",
+    "mechanicFull": "Deck Building / Wargame"
+  },
+  {
+    "name": "Undaunted: Stalingrad",
+    "publisher": "Osprey Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deck Building",
+    "mechanicFull": "Deck Building / Wargame"
+  },
+  {
+    "name": "The Lord of the Rings (Knizia cooperative board game)",
+    "publisher": "Kosmos",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Light",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative"
+  },
+  {
+    "name": "The Grizzled: Chronicles",
+    "publisher": "",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative"
+  },
+  {
+    "name": "Combat Commander: Resistance",
+    "publisher": "GMT Games",
+    "players": [
+      2,
+      8
+    ],
+    "time": [
+      60,
+      180
+    ],
+    "complexity": "Complex",
+    "mechanic": "Wargame",
+    "mechanicFull": "Wargame"
+  },
+  {
+    "name": "Combat Commander: Pacific",
+    "publisher": "GMT Games",
+    "players": [
+      2,
+      8
+    ],
+    "time": [
+      60,
+      180
+    ],
+    "complexity": "Complex",
+    "mechanic": "Wargame",
+    "mechanicFull": "Wargame"
+  },
+  {
+    "name": "Colonial Twilight",
+    "publisher": "GMT Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      90,
+      180
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Wargame",
+    "mechanicFull": "Wargame (COIN)"
+  },
+  {
+    "name": "Next War: India-Pakistan",
+    "publisher": "GMT Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      180,
+      360
+    ],
+    "complexity": "Complex",
+    "mechanic": "Wargame",
+    "mechanicFull": "Wargame"
+  },
+  {
+    "name": "Twilight Struggle (Deluxe Edition)",
+    "publisher": "GMT Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      120,
+      180
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Wargame",
+    "mechanicFull": "Card-Driven Wargame"
+  },
+  {
+    "name": "1960: The Making of the President",
+    "publisher": "GMT Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Card-Driven",
+    "mechanicFull": "Card-Driven"
+  },
+  {
+    "name": "I, Napoleon",
+    "publisher": "GMT Games (designer Ted Raicer)",
+    "players": [
+      1,
+      1
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Solo",
+    "est": true,
+    "mechanicFull": "Solo Narrative Wargame"
+  },
+  {
+    "name": "New Angeles",
+    "publisher": "Fantasy Flight Games",
+    "players": [
+      4,
+      6
+    ],
+    "time": [
+      90,
+      150
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Negotiation",
+    "mechanicFull": "Negotiation"
+  },
+  {
+    "name": "A Wild Venture",
+    "publisher": "",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Push Your Luck",
+    "est": true,
+    "mechanicFull": "Push Your Luck"
+  },
+  {
+    "name": "Adamastor",
+    "publisher": "",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Unknown",
+    "est": true,
+    "note": "Title confirmed from a close photo crop, but no gameplay details found \u2014 attributes below are a rough placeholder guess.",
+    "mechanicFull": "Unknown"
+  },
+  {
+    "name": "Unidentified small tan-spine box",
+    "publisher": "",
+    "players": [
+      null,
+      null
+    ],
+    "time": [
+      null,
+      null
+    ],
+    "complexity": "Unknown",
+    "mechanic": "Unknown",
+    "note": "Title illegible even at high zoom, near Adamastor. No attributes available.",
+    "mechanicFull": "Unknown"
+  },
+  {
+    "name": "Watergate",
+    "publisher": "Capstone Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Card-Driven",
+    "mechanicFull": "Card-Driven"
+  },
+  {
+    "name": "National Economy",
+    "publisher": "",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Engine Building",
+    "est": true,
+    "mechanicFull": "Engine Building"
+  },
+  {
+    "name": "Take a Seat",
+    "publisher": "",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Set Collection",
+    "est": true,
+    "mechanicFull": "Set Collection"
+  },
+  {
+    "name": "Cartographers",
+    "publisher": "Thunderworks Games",
+    "players": [
+      1,
+      100
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Roll & Write",
+    "mechanicFull": "Roll & Write"
+  },
+  {
+    "name": "Maquis",
+    "publisher": "",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control / Bluffing"
+  },
+  {
+    "name": "Faraway",
+    "publisher": "",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Card Drafting",
+    "mechanicFull": "Card Drafting"
+  },
+  {
+    "name": "Battle Line",
+    "publisher": "GMT Games",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Tactical",
+    "mechanicFull": "Tactical Card Game"
+  },
+  {
+    "name": "Tournament at Avalon",
+    "publisher": "",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Bluffing",
+    "est": true,
+    "mechanicFull": "Bluffing"
+  },
+  {
+    "name": "Condottiere",
+    "publisher": "",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "The Duke",
+    "publisher": "Catalyst Game Labs",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Medium",
+    "mechanic": "Abstract",
+    "mechanicFull": "Abstract"
+  },
+  {
+    "name": "John Company (2nd Edition)",
+    "publisher": "Wehrlegig Games",
+    "players": [
+      3,
+      5
+    ],
+    "time": [
+      180,
+      360
+    ],
+    "complexity": "Complex",
+    "mechanic": "Economic",
+    "mechanicFull": "Economic / Negotiation"
+  },
+  {
+    "name": "Pax Pamir (2nd Edition)",
+    "publisher": "Wehrlegig Games",
+    "players": [
+      1,
+      5
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control / Card Drafting"
+  },
+  {
+    "name": "Leviathan Wilds",
+    "publisher": "Greater Than Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Cooperative",
+    "est": true,
+    "mechanicFull": "Cooperative"
+  },
+  {
+    "name": "Spirit Island",
+    "publisher": "Greater Than Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      90,
+      120
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative / Area Control"
+  },
+  {
+    "name": "Daybreak",
+    "publisher": "",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative / Engine Building"
+  },
+  {
+    "name": "Container",
+    "publisher": "",
+    "players": [
+      3,
+      5
+    ],
+    "time": [
+      90,
+      120
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Economic",
+    "mechanicFull": "Economic / Trading"
+  },
+  {
+    "name": "The Lost Expedition",
+    "publisher": "Osprey Games",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative / Hand Management"
+  },
+  {
+    "name": "Tenby",
+    "publisher": "",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Tile Placement",
+    "est": true,
+    "mechanicFull": "Tile Placement"
+  },
+  {
+    "name": "Hanamikoji",
+    "publisher": "",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      15,
+      20
+    ],
+    "complexity": "Simple",
+    "mechanic": "Card Game",
+    "mechanicFull": "Card Game"
+  },
+  {
+    "name": "Agent Avenue",
+    "publisher": "",
+    "players": [
+      3,
+      6
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Deduction",
+    "est": true,
+    "mechanicFull": "Deduction"
+  },
+  {
+    "name": "Ghost Fightin' Treasure Hunters",
+    "publisher": "",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative"
+  },
+  {
+    "name": "Spots",
+    "publisher": "",
+    "players": [
+      2,
+      99
+    ],
+    "time": [
+      15,
+      20
+    ],
+    "complexity": "Simple",
+    "mechanic": "Roll & Write",
+    "mechanicFull": "Roll & Write"
+  },
+  {
+    "name": "Comfy Blackjack",
+    "publisher": "",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      15,
+      20
+    ],
+    "complexity": "Simple",
+    "mechanic": "Card Game",
+    "mechanicFull": "Card Game"
+  },
+  {
+    "name": "Scout",
+    "publisher": "Oink Games",
+    "players": [
+      3,
+      5
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Trick-Taking",
+    "mechanicFull": "Trick-Taking"
+  },
+  {
+    "name": "Zoo Vadis",
+    "publisher": "",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Area Control",
+    "mechanicFull": "Area Control"
+  },
+  {
+    "name": "Chinatown",
+    "publisher": "",
+    "players": [
+      3,
+      5
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Negotiation",
+    "mechanicFull": "Negotiation"
+  },
+  {
+    "name": "Irish Gauge",
+    "publisher": "Iron Rail Games",
+    "players": [
+      3,
+      4
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Medium",
+    "mechanic": "Stock Holding",
+    "mechanicFull": "Stock Holding"
+  },
+  {
+    "name": "Iberian Gauge",
+    "publisher": "Iron Rail Games",
+    "players": [
+      3,
+      5
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Stock Holding",
+    "mechanicFull": "Stock Holding"
+  },
+  {
+    "name": "RA (Pharaoh Edition)",
+    "publisher": "",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Auction",
+    "mechanicFull": "Auction / Bidding"
+  },
+  {
+    "name": "A Gest of Robin Hood (Volume II)",
+    "publisher": "GMT Games \u2014 Irregular Conflicts Series",
+    "players": [
+      1,
+      2
+    ],
+    "time": [
+      90,
+      180
+    ],
+    "complexity": "Heavy",
+    "mechanic": "Wargame",
+    "est": true,
+    "mechanicFull": "Card-Driven Wargame"
+  },
+  {
+    "name": "Ham Helsing",
+    "publisher": "",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Hidden Movement",
+    "est": true,
+    "mechanicFull": "Hidden Movement"
+  },
+  {
+    "name": "Fellowship",
+    "publisher": "Grey Fox Games",
+    "players": [
+      1,
+      4
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Deck Building",
+    "mechanicFull": "Deck Building"
+  },
+  {
+    "name": "Trailblazers",
+    "publisher": "Brotherwise Games",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Route Building",
+    "mechanicFull": "Route Building"
+  },
+  {
+    "name": "The Bloody Inn",
+    "publisher": "Pearl Games",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      45,
+      60
+    ],
+    "complexity": "Medium",
+    "mechanic": "Set Collection",
+    "mechanicFull": "Set Collection"
+  },
+  {
+    "name": "Lightspeed Arena",
+    "publisher": "",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Dueling",
+    "est": true,
+    "mechanicFull": "Dueling"
+  },
+  {
+    "name": "Tag Team",
+    "publisher": "",
+    "players": [
+      4,
+      4
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Card Game",
+    "est": true,
+    "mechanicFull": "Card Game"
+  },
+  {
+    "name": "Decrypto",
+    "publisher": "",
+    "players": [
+      3,
+      8
+    ],
+    "time": [
+      15,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Party",
+    "mechanicFull": "Party / Deduction"
+  },
+  {
+    "name": "Bloc by Bloc: Uprising",
+    "publisher": "",
+    "players": [
+      1,
+      5
+    ],
+    "time": [
+      60,
+      120
+    ],
+    "complexity": "Medium",
+    "mechanic": "Cooperative",
+    "mechanicFull": "Cooperative / Area Control"
+  },
+  {
+    "name": "Power Vacuum",
+    "publisher": "",
+    "players": [
+      2,
+      5
+    ],
+    "time": [
+      60,
+      90
+    ],
+    "complexity": "Medium",
+    "mechanic": "Engine Building",
+    "est": true,
+    "mechanicFull": "Engine Building"
+  },
+  {
+    "name": "Witchcraft!",
+    "publisher": "",
+    "players": [
+      3,
+      5
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Card Game",
+    "est": true,
+    "mechanicFull": "Card Game"
+  },
+  {
+    "name": "Resist!",
+    "publisher": "",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Cooperative",
+    "est": true,
+    "mechanicFull": "Cooperative"
+  },
+  {
+    "name": "Pilgrims",
+    "publisher": "Czech Games Edition",
+    "players": [
+      2,
+      4
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Card Drafting",
+    "mechanicFull": "Card Drafting"
+  },
+  {
+    "name": "Hot Pot Holic",
+    "publisher": "",
+    "players": [
+      2,
+      6
+    ],
+    "time": [
+      15,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Set Collection",
+    "mechanicFull": "Set Collection"
+  },
+  {
+    "name": "Yokai Septet",
+    "publisher": "Ninja Star Games",
+    "players": [
+      4,
+      4
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Trick-Taking",
+    "mechanicFull": "Trick-Taking"
+  },
+  {
+    "name": "Kompromat: Duel of Spies",
+    "publisher": "",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      15,
+      30
+    ],
+    "complexity": "Light",
+    "mechanic": "Bluffing",
+    "mechanicFull": "Bluffing"
+  },
+  {
+    "name": "Compile: Main 1",
+    "publisher": "",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Medium",
+    "mechanic": "Abstract",
+    "mechanicFull": "Abstract"
+  },
+  {
+    "name": "No Thanks!",
+    "publisher": "Amigo",
+    "players": [
+      3,
+      7
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Push Your Luck",
+    "mechanicFull": "Push Your Luck"
+  },
+  {
+    "name": "Wat Nu?",
+    "publisher": "",
+    "players": [
+      3,
+      8
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Party",
+    "est": true,
+    "mechanicFull": "Party"
+  },
+  {
+    "name": "Bang! The Dice Game",
+    "publisher": "",
+    "players": [
+      3,
+      8
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Social Deduction",
+    "mechanicFull": "Social Deduction / Dice"
+  },
+  {
+    "name": "Millions",
+    "publisher": "",
+    "players": [
+      3,
+      6
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Bluffing",
+    "est": true,
+    "mechanicFull": "Bluffing"
+  },
+  {
+    "name": "The Resistance: Avalon",
+    "publisher": "Indie Boards & Cards",
+    "players": [
+      5,
+      10
+    ],
+    "time": [
+      30,
+      45
+    ],
+    "complexity": "Light",
+    "mechanic": "Social Deduction",
+    "mechanicFull": "Social Deduction"
+  },
+  {
+    "name": "Tuzzie Muzzie",
+    "publisher": "",
+    "players": [
+      2,
+      2
+    ],
+    "time": [
+      20,
+      30
+    ],
+    "complexity": "Simple",
+    "mechanic": "Set Collection",
+    "mechanicFull": "Set Collection"
+  },
+  {
+    "name": "The Hunted Collection",
+    "publisher": "",
+    "players": [
+      null,
+      null
+    ],
+    "time": [
+      null,
+      null
+    ],
+    "complexity": "Unknown",
+    "mechanic": "Unknown",
+    "note": "A themed accessory/sleeve collection box \u2014 no gameplay attributes apply.",
+    "mechanicFull": "Unknown"
+  },
+  {
+    "name": "Part the Mistveil Collection",
+    "publisher": "",
+    "players": [
+      null,
+      null
+    ],
+    "time": [
+      null,
+      null
+    ],
+    "complexity": "Unknown",
+    "mechanic": "Unknown",
+    "note": "A themed accessory/sleeve collection box \u2014 no gameplay attributes apply.",
+    "mechanicFull": "Unknown"
+  },
+  {
+    "name": "Rosetta Collection",
+    "publisher": "",
+    "players": [
+      null,
+      null
+    ],
+    "time": [
+      null,
+      null
+    ],
+    "complexity": "Unknown",
+    "mechanic": "Unknown",
+    "note": "A themed accessory/sleeve collection box \u2014 no gameplay attributes apply.",
+    "mechanicFull": "Unknown"
+  }
+]
